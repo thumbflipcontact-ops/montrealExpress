@@ -29,8 +29,6 @@ class CartCubit extends Cubit<CartState> {
   }
 
   Future<void> _initialize() async {
-    _logDebug('CartCubit initializing');
-
     final dataSource = _cartDataSource;
     final controller = _controller;
 
@@ -39,8 +37,6 @@ class CartCubit extends Cubit<CartState> {
     } else if (controller != null) {
       _syncFromController();
     }
-
-    _logDebug('CartCubit initialized');
   }
 
   Future<void> loadCart() async {
@@ -48,20 +44,19 @@ class CartCubit extends Cubit<CartState> {
     final controller = _controller;
 
     if (dataSource == null) {
-      _logDebug('No cart data source available, using local cart');
       if (controller != null) _syncFromController();
       return;
     }
 
-    emit(state.copyWith(isLoading: true, error: null));
+    emit(state.copyWith(isLoading: true));
 
     try {
       await dataSource.initialize();
       final cart = await dataSource.getCart();
       _currentCart = cart;
 
-      final cartItems = cart.items.map((item) {
-        return CartItem(product: item.product, quantity: item.quantity);
+      final cartItems = cart.items.map((e) {
+        return CartItem(product: e.product, quantity: e.quantity);
       }).toList();
 
       emit(CartState(
@@ -74,8 +69,7 @@ class CartCubit extends Cubit<CartState> {
         couponCode: cart.couponCode,
       ));
     } catch (e) {
-      _logDebug('Error loading cart: $e');
-      emit(state.copyWith(isLoading: false, error: 'Failed to load cart: $e'));
+      emit(state.copyWith(isLoading: false, error: '$e'));
 
       if (controller != null) {
         _syncFromController();
@@ -87,8 +81,8 @@ class CartCubit extends Cubit<CartState> {
     final controller = _controller;
     if (controller == null) return;
 
-    final items = controller.cartItems.map((item) {
-      return CartItem(product: item.product, quantity: item.quantity);
+    final items = controller.cartItems.map((e) {
+      return CartItem(product: e.product, quantity: e.quantity);
     }).toList();
 
     emit(CartState(
@@ -103,7 +97,7 @@ class CartCubit extends Cubit<CartState> {
     final controller = _controller;
 
     if (dataSource != null) {
-      emit(state.copyWith(isLoading: true, error: null));
+      emit(state.copyWith(isLoading: true));
 
       try {
         await dataSource.initialize();
@@ -128,7 +122,7 @@ class CartCubit extends Cubit<CartState> {
           couponCode: cart.couponCode,
         ));
       } catch (e) {
-        emit(state.copyWith(isLoading: false, error: 'Failed to add item: $e'));
+        emit(state.copyWith(isLoading: false, error: '$e'));
       }
     } else if (controller != null) {
       controller.addToCart(item.product, quantity: item.quantity);
@@ -142,7 +136,7 @@ class CartCubit extends Cubit<CartState> {
 
     if (dataSource != null && _currentCart != null) {
       final cartItem = _currentCart!.items.firstWhere(
-        (item) => item.product.id == productId,
+        (e) => e.product.id == productId,
         orElse: () => _currentCart!.items.first,
       );
 
@@ -170,6 +164,53 @@ class CartCubit extends Cubit<CartState> {
       }
     } else if (controller != null) {
       controller.removeFromCart(productId);
+      _syncFromController();
+    }
+  }
+
+  Future<void> setQuantity(String productId, int quantity) async {
+    final dataSource = _cartDataSource;
+    final controller = _controller;
+
+    if (quantity <= 0) {
+      await removeFromCart(productId);
+      return;
+    }
+
+    if (dataSource != null && _currentCart != null) {
+      final cartItem = _currentCart!.items.firstWhere(
+        (e) => e.product.id == productId,
+        orElse: () => _currentCart!.items.first,
+      );
+
+      emit(state.copyWith(isLoading: true));
+
+      try {
+        final cart = await dataSource.updateCartItem(
+          itemId: cartItem.id,
+          quantity: quantity,
+        );
+
+        _currentCart = cart;
+
+        final cartItems = cart.items.map((e) {
+          return CartItem(product: e.product, quantity: e.quantity);
+        }).toList();
+
+        emit(CartState(
+          items: cartItems,
+          isLoading: false,
+          subtotal: cart.subtotal,
+          tax: cart.tax,
+          discount: cart.discount,
+          total: cart.total,
+          couponCode: cart.couponCode,
+        ));
+      } catch (e) {
+        emit(state.copyWith(isLoading: false, error: '$e'));
+      }
+    } else if (controller != null) {
+      controller.setQuantity(productId, quantity);
       _syncFromController();
     }
   }

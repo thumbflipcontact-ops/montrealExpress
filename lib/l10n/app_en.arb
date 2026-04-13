@@ -1,0 +1,171 @@
+{
+  "@@locale": "en",
+
+  "appName": "AbdoulExpress",
+  "welcome": "Welcome",
+
+  "navHome": "Shop",
+  "navCart": "Cart",
+  "navChat": "Chat",
+  "navProfile": "Profile",
+  "navCategories": "Categories",
+
+  "categoriesAll": "All",
+  "search": "Search",
+  "searchProducts": "Search products...",
+  "searchNoResults": "No products found",
+
+  "addToCart": "Add to cart",
+  "buyNow": "Buy now",
+  "price": "Price",
+  "quantity": "Quantity",
+  "inStock": "In stock",
+  "outOfStock": "Out of stock",
+
+  "cartTitle": "Cart",
+  "cartEmpty": "Your cart is empty",
+  "cartEmptyMessage": "Add some products to get started!",
+  "cartSubtotal": "Subtotal",
+  "cartShipping": "Shipping",
+  "cartTotal": "Total",
+  "checkout": "Proceed to checkout",
+  "continueShoping": "Continue shopping",
+
+  "currency": "F CFA",
+  "currencyFormat": "{amount} F CFA",
+  "@currencyFormat": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+
+  "loginTitle": "Login",
+  "loginEmail": "Email or phone",
+  "loginPassword": "Password",
+  "loginButton": "Log in",
+  "loginForgotPassword": "Forgot password?",
+  "loginSignupPrompt": "Don't have an account?",
+  "loginSignupLink": "Sign up",
+
+  "signupTitle": "Sign up",
+  "signupFirstName": "First name",
+  "signupLastName": "Last name",
+  "signupName": "Full name",
+  "signupEmail": "Email",
+  "signupPhone": "Phone number",
+  "signupPassword": "Password",
+  "signupConfirmPassword": "Confirm password",
+  "signupButton": "Create account",
+  "signupLoginPrompt": "Already have an account?",
+  "signupLoginLink": "Log in",
+
+  "otpTitle": "Verify OTP",
+  "otpMessage": "Enter the code sent to {phone}",
+  "@otpMessage": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "otpResend": "Resend code",
+  "otpVerify": "Verify",
+  "otpMessageGeneric": "We sent a 6-digit code to your number",
+  "sendCode": "Send code",
+  "loginWithoutAccount": "Log in without account",
+  "emailTab": "Email",
+  "phoneTab": "Phone",
+
+  "profileTitle": "Profile",
+  "profileOrders": "My orders",
+  "profileAddresses": "Addresses",
+  "profilePayments": "Payment history",
+  "profileFavorites": "Favorites",
+  "profileSettings": "Settings",
+  "profileLogout": "Logout",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsLanguageEnglish": "English",
+  "settingsLanguageFrench": "Français",
+  "settingsLanguageHausa": "Hausa",
+  "settingsNotifications": "Notifications",
+  "settingsTheme": "Theme",
+  "settingsAbout": "About",
+  "settingsPrivacy": "Privacy policy",
+  "settingsTerms": "Terms of service",
+
+  "ordersTitle": "My orders",
+  "ordersEmpty": "No orders yet",
+  "ordersEmptyMessage": "Start shopping to see your orders here",
+  "orderDetails": "Order details",
+  "orderStatus": "Status",
+  "orderDate": "Order date",
+  "orderTotal": "Total",
+  "orderTrack": "Track order",
+  "orderCancel": "Cancel order",
+  "orderReorder": "Reorder",
+
+  "orderStatusPending": "Pending",
+  "orderStatusProcessing": "Processing",
+  "orderStatusShipped": "Shipped",
+  "orderStatusDelivered": "Delivered",
+  "orderStatusCancelled": "Cancelled",
+
+  "favoritesTitle": "Favorites",
+  "favoritesEmpty": "No favorites yet",
+  "favoritesEmptyMessage": "Tap the heart icon on products you love",
+
+  "categoriesTitle": "Categories",
+  "newArrivals": "New arrivals",
+  "specialOffers": "Special offers",
+  "recentlyViewed": "Recently viewed",
+
+  "errorGeneric": "An error occurred",
+  "errorNetwork": "Check your internet connection",
+  "errorEmpty": "No results found",
+  "errorLoading": "Failed to load data",
+  "errorTryAgain": "Try again",
+
+  "actionSave": "Save",
+  "actionCancel": "Cancel",
+  "actionDelete": "Delete",
+  "actionEdit": "Edit",
+  "actionOk": "OK",
+  "actionYes": "Yes",
+  "actionNo": "No",
+  "actionConfirm": "Confirm",
+  "actionClose": "Close",
+  "actionApply": "Apply",
+  "actionClear": "Clear",
+  "actionFilter": "Filter",
+  "actionSort": "Sort",
+  "testCredentials": "Test: {email} / {password}\nOr: {phone}",
+  "@testCredentials": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      },
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "@otpMessageGeneric": {},
+
+  "validationRequired": "This field is required",
+  "validationEmail": "Enter a valid email",
+  "validationPhone": "Enter a valid phone number",
+  "validationPassword": "Password must be at least 6 characters",
+  "validationPasswordMismatch": "Passwords do not match",
+
+  "loading": "Loading...",
+  "loadingProducts": "Loading products...",
+  "loadingOrders": "Loading orders...",
+  "processingPayment": "Processing payment..."
+}

@@ -1,0 +1,208 @@
+1.about text:
+ 'AbdoulExpress est votre marketplace de confiance au Niger. '
+                    'Nous vous offrons une expérience de shopping en ligne simple, '
+                    'rapide et sécurisée avec livraison à domicile.',
+
+
+2.             'Politique de Confidentialité',
+            'Dernière mise à jour: 13 Décembre 2025',
+  _Section(
+            title: '1. Introduction',
+            content:
+                'AbdoulExpress ("nous", "notre" ou "nos") s\'engage à protéger et à '
+                'respecter votre vie privée. Cette politique de confidentialité explique '
+                'comment nous collectons, utilisons et protégeons vos informations personnelles.',
+          ),
+         _Section(
+            title: '2. Informations que nous collectons',
+            content:
+                'Nous pouvons collecter les informations suivantes:\n\n'
+                '• Informations d\'identification personnelle (nom, email, téléphone)\n'
+                '• Adresse de livraison\n'
+                '• Informations de paiement (traitées de manière sécurisée)\n'
+                '• Historique des commandes et préférences\n'
+                '• Données d\'utilisation de l\'application',
+          ),
+
+          _Section(
+            title: '3. Comment nous utilisons vos informations',
+            content:
+                'Nous utilisons vos informations pour:\n\n'
+                '• Traiter vos commandes et livraisons\n'
+                '• Communiquer avec vous concernant vos commandes\n'
+                '• Améliorer nos services et votre expérience\n'
+                '• Vous envoyer des offres promotionnelles (avec votre consentement)\n'
+                '• Assurer la sécurité de notre plateforme',
+          ),
+
+          _Section(
+            title: '4. Protection de vos données',
+            content:
+                'Nous mettons en œuvre des mesures de sécurité techniques et '
+                'organisationnelles appropriées pour protéger vos données personnelles '
+                'contre tout accès non autorisé, modification, divulgation ou destruction.\n\n'
+                'Vos informations de paiement sont traitées via des passerelles de '
+                'paiement sécurisées et ne sont jamais stockées sur nos serveurs.',
+          ),
+
+          _Section(
+            title: '5. Partage de vos informations',
+            content:
+                'Nous ne vendons ni ne louons vos informations personnelles à des tiers. '
+                'Nous pouvons partager vos informations uniquement avec:\n\n'
+                '• Nos partenaires de livraison pour exécuter vos commandes\n'
+                '• Nos prestataires de services de paiement\n'
+                '• Les autorités légales si requis par la loi',
+          ),
+
+          _Section(
+            title: '6. Vos droits',
+            content:
+                'Vous avez le droit de:\n\n'
+                '• Accéder à vos données personnelles\n'
+                '• Corriger vos informations inexactes\n'
+                '• Demander la suppression de vos données\n'
+                '• Vous opposer au traitement de vos données\n'
+                '• Retirer votre consentement à tout moment\n\n'
+                'Pour exercer ces droits, contactez-nous à: privacy@abdoulexpress.com',
+          ),
+
+          _Section(
+            title: '7. Cookies et technologies similaires',
+            content:
+                'Nous utilisons des cookies et technologies similaires pour améliorer '
+                'votre expérience, analyser l\'utilisation de notre application et '
+                'personnaliser le contenu. Vous pouvez gérer vos préférences de cookies '
+                'dans les paramètres de votre appareil.',
+          ),
+
+          _Section(
+            title: '8. Modifications de cette politique',
+            content:
+                'Nous pouvons mettre à jour cette politique de confidentialité de temps '
+                'en temps. Nous vous informerons de tout changement important en publiant '
+                'la nouvelle politique sur cette page et en mettant à jour la date de '
+                '"Dernière mise à jour".',
+          ),
+
+          _Section(
+            title: '9. Contact',
+            content:
+                'Si vous avez des questions concernant cette politique de confidentialité, '
+                'veuillez nous contacter:\n\n'
+                'Email: privacy@abdoulexpress.com\n'
+                'Téléphone: +227 XX XX XX XX\n'
+                'Adresse: Niamey, Niger',
+          ),
+
+3.             'Conditions d\'Utilisation',
+            'Dernière mise à jour: 13 Décembre 2025',
+  _Section(
+            title: '1. Acceptation des Conditions',
+            content:
+                'En utilisant l\'application AbdoulExpress, vous acceptez d\'être lié par '
+                'ces Conditions d\'Utilisation. Si vous n\'acceptez pas ces conditions, '
+                'veuillez ne pas utiliser notre application.',
+          ),
+
+          _Section(
+            title: '2. Inscription et Compte',
+            content:
+                'Pour utiliser certaines fonctionnalités, vous devez créer un compte. '
+                'Vous êtes responsable de:\n\n'
+                '• La confidentialité de votre mot de passe\n'
+                '• Toutes les activités effectuées sous votre compte\n'
+                '• Fournir des informations exactes et à jour\n'
+                '• Informer immédiatement AbdoulExpress de toute utilisation non autorisée',
+          ),
+
+          _Section(
+            title: '3. Utilisation du Service',
+            content:
+                'Vous acceptez de:\n\n'
+                '• Utiliser le service uniquement à des fins légales\n'
+                '• Ne pas tenter de contourner les mesures de sécurité\n'
+                '• Ne pas utiliser de robots ou systèmes automatisés\n'
+                '• Ne pas interférer avec le bon fonctionnement du service\n'
+                '• Respecter les droits de propriété intellectuelle',
+          ),
+
+          _Section(
+            title: '4. Commandes et Paiements',
+            content:
+                'Toutes les commandes sont soumises à disponibilité. Nous nous réservons '
+                'le droit de refuser ou d\'annuler toute commande.\n\n'
+                'Les prix affichés sont en Francs CFA (F CFA) et incluent toutes les taxes '
+                'applicables. Les frais de livraison sont indiqués séparément.\n\n'
+                'Le paiement doit être effectué au moment de la commande via les méthodes '
+                'de paiement disponibles.',
+          ),
+
+          _Section(
+            title: '5. Livraison',
+            content:
+                'Nous nous efforçons de livrer vos commandes dans les délais indiqués. '
+                'Cependant, ces délais sont donnés à titre indicatif.\n\n'
+                'Les frais de livraison varient selon la zone et le poids de la commande.\n\n'
+                'Vous devez être présent à l\'adresse de livraison pour recevoir votre '
+                'commande. En cas d\'absence, des frais supplémentaires peuvent s\'appliquer.',
+          ),
+
+          _Section(
+            title: '6. Retours et Remboursements',
+            content:
+                'Vous pouvez retourner les produits dans les 7 jours suivant la réception '
+                'si:\n\n'
+                '• Le produit est défectueux ou endommagé\n'
+                '• Le produit ne correspond pas à la description\n'
+                '• Le produit n\'est pas dans son emballage d\'origine\n\n'
+                'Les produits périssables ne peuvent pas être retournés. Le remboursement '
+                'sera effectué dans un délai de 14 jours après réception du retour.',
+          ),
+
+          _Section(
+            title: '7. Limitation de Responsabilité',
+            content:
+                'AbdoulExpress ne peut être tenu responsable de:\n\n'
+                '• Tout dommage indirect ou consécutif\n'
+                '• La perte de données ou de profits\n'
+                '• Les interruptions de service\n'
+                '• Les erreurs ou omissions dans le contenu\n\n'
+                'Notre responsabilité est limitée au montant payé pour le produit concerné.',
+          ),
+
+          _Section(
+            title: '8. Propriété Intellectuelle',
+            content:
+                'Tout le contenu de l\'application (textes, images, logos, etc.) est la '
+                'propriété d\'AbdoulExpress ou de ses partenaires et est protégé par les '
+                'lois sur la propriété intellectuelle.\n\n'
+                'Vous ne pouvez pas copier, modifier ou distribuer ce contenu sans notre '
+                'autorisation écrite préalable.',
+          ),
+
+          _Section(
+            title: '9. Modifications des Conditions',
+            content:
+                'Nous nous réservons le droit de modifier ces Conditions d\'Utilisation '
+                'à tout moment. Les modifications entrent en vigueur dès leur publication '
+                'dans l\'application.\n\n'
+                'Votre utilisation continue du service après les modifications constitue '
+                'votre acceptation des nouvelles conditions.',
+          ),
+
+          _Section(
+            title: '10. Loi Applicable',
+            content:
+                'Ces Conditions d\'Utilisation sont régies par les lois du Niger. Tout '
+                'litige sera soumis à la compétence exclusive des tribunaux de Niamey.',
+          ),
+
+          _Section(
+            title: '11. Contact',
+            content:
+                'Pour toute question concernant ces Conditions d\'Utilisation:\n\n'
+                'Email: support@abdoulexpress.com\n'
+                'Téléphone: +227 XX XX XX XX\n'
+                'Adresse: Niamey, Niger',
+          ),

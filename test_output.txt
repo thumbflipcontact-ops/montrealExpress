@@ -1,0 +1,451 @@
+00:00 +0: loading /Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart                                                                                                          00:01 +0: loading /Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart                                                                                                          00:01 +0: HomePage search filters products                                                                                                                                                             00:01 +0: HomePage search filters products                                                                                                                                                             
+HomePage: products=10, query=
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building ChoiceChip(dirty):
+No Material widget found.
+ChoiceChip widgets require a Material widget ancestor within the closest LookupBoundary.
+In Material Design, most widgets are conceptually "printed" on a sheet of material. In Flutter's
+material library, that material is represented by the Material widget. It is the Material widget
+that renders ink splashes, for instance. Because of this, many material library widgets require that
+there be a Material widget in the tree above them.
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+The specific widget that could not find a Material ancestor was:
+  ChoiceChip
+The ancestors of this widget were:
+  ...
+  Padding
+  Row
+  _SingleChildViewport
+  IgnorePointer-[GlobalKey#f8efa]
+  Semantics
+  ...
+
+The relevant error-causing widget was:
+  ChoiceChip
+  ChoiceChip:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/features/home/presentation/pages/home_page.dart:215:22
+
+When the exception was thrown, this was the stack:
+#0      debugCheckHasMaterial.<anonymous closure> (package:flutter/src/material/debug.dart:40:7)
+#1      debugCheckHasMaterial (package:flutter/src/material/debug.dart:67:4)
+#2      ChoiceChip.build (package:flutter/src/material/choice_chip.dart:221:12)
+#3      StatelessElement.build (package:flutter/src/widgets/framework.dart:5892:49)
+#4      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5820:15)
+#5      Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5802:5)
+#7      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5796:5)
+...     Normal element mounting (4 frames)
+#11     Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#12     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#13     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+...     Normal element mounting (102 frames)
+#115    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#116    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#117    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+#118    _ViewportElement.mount (package:flutter/src/widgets/viewport.dart:254:11)
+...     Normal element mounting (93 frames)
+#211    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#216    StatefulElement.update (package:flutter/src/widgets/framework.dart:6010:5)
+#217    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#218    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#219    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#220    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#221    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#222    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#223    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#224    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:1506:19)
+#225    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#226    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#227    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#228    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1335:9)
+#231    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#232    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1324:27)
+#233    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#234    TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#235    main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:42:5)
+<asynchronous suspension>
+#236    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#237    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from dart:async and package:stack_trace)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building ChoiceChip(dirty):
+No Material widget found.
+ChoiceChip widgets require a Material widget ancestor within the closest LookupBoundary.
+In Material Design, most widgets are conceptually "printed" on a sheet of material. In Flutter's
+material library, that material is represented by the Material widget. It is the Material widget
+that renders ink splashes, for instance. Because of this, many material library widgets require that
+there be a Material widget in the tree above them.
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+The specific widget that could not find a Material ancestor was:
+  ChoiceChip
+The ancestors of this widget were:
+  ...
+  Padding
+  Row
+  _SingleChildViewport
+  IgnorePointer-[GlobalKey#f8efa]
+  Semantics
+  ...
+
+The relevant error-causing widget was:
+  ChoiceChip
+  ChoiceChip:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/features/home/presentation/pages/home_page.dart:215:22
+
+When the exception was thrown, this was the stack:
+#0      debugCheckHasMaterial.<anonymous closure> (package:flutter/src/material/debug.dart:40:7)
+#1      debugCheckHasMaterial (package:flutter/src/material/debug.dart:67:4)
+#2      ChoiceChip.build (package:flutter/src/material/choice_chip.dart:221:12)
+#3      StatelessElement.build (package:flutter/src/widgets/framework.dart:5892:49)
+#4      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5820:15)
+#5      Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5802:5)
+#7      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5796:5)
+...     Normal element mounting (4 frames)
+#11     Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#12     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#13     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+...     Normal element mounting (102 frames)
+#115    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#116    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#117    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+#118    _ViewportElement.mount (package:flutter/src/widgets/viewport.dart:254:11)
+...     Normal element mounting (93 frames)
+#211    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#216    StatefulElement.update (package:flutter/src/widgets/framework.dart:6010:5)
+#217    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#218    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#219    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#220    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#221    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#222    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#223    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#224    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:1506:19)
+#225    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#226    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#227    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#228    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1335:9)
+#231    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#232    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1324:27)
+#233    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#234    TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#235    main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:42:5)
+<asynchronous suspension>
+#236    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#237    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from dart:async and package:stack_trace)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building ChoiceChip(dirty):
+No Material widget found.
+ChoiceChip widgets require a Material widget ancestor within the closest LookupBoundary.
+In Material Design, most widgets are conceptually "printed" on a sheet of material. In Flutter's
+material library, that material is represented by the Material widget. It is the Material widget
+that renders ink splashes, for instance. Because of this, many material library widgets require that
+there be a Material widget in the tree above them.
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+The specific widget that could not find a Material ancestor was:
+  ChoiceChip
+The ancestors of this widget were:
+  ...
+  Padding
+  Row
+  _SingleChildViewport
+  IgnorePointer-[GlobalKey#f8efa]
+  Semantics
+  ...
+
+The relevant error-causing widget was:
+  ChoiceChip
+  ChoiceChip:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/features/home/presentation/pages/home_page.dart:215:22
+
+When the exception was thrown, this was the stack:
+#0      debugCheckHasMaterial.<anonymous closure> (package:flutter/src/material/debug.dart:40:7)
+#1      debugCheckHasMaterial (package:flutter/src/material/debug.dart:67:4)
+#2      ChoiceChip.build (package:flutter/src/material/choice_chip.dart:221:12)
+#3      StatelessElement.build (package:flutter/src/widgets/framework.dart:5892:49)
+#4      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5820:15)
+#5      Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5802:5)
+#7      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5796:5)
+...     Normal element mounting (4 frames)
+#11     Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#12     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#13     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+...     Normal element mounting (102 frames)
+#115    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#116    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#117    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+#118    _ViewportElement.mount (package:flutter/src/widgets/viewport.dart:254:11)
+...     Normal element mounting (93 frames)
+#211    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#216    StatefulElement.update (package:flutter/src/widgets/framework.dart:6010:5)
+#217    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#218    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#219    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#220    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#221    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#222    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#223    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#224    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:1506:19)
+#225    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#226    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#227    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#228    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1335:9)
+#231    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#232    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1324:27)
+#233    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#234    TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#235    main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:42:5)
+<asynchronous suspension>
+#236    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#237    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from dart:async and package:stack_trace)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building ChoiceChip(dirty):
+No Material widget found.
+ChoiceChip widgets require a Material widget ancestor within the closest LookupBoundary.
+In Material Design, most widgets are conceptually "printed" on a sheet of material. In Flutter's
+material library, that material is represented by the Material widget. It is the Material widget
+that renders ink splashes, for instance. Because of this, many material library widgets require that
+there be a Material widget in the tree above them.
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+The specific widget that could not find a Material ancestor was:
+  ChoiceChip
+The ancestors of this widget were:
+  ...
+  Padding
+  Row
+  _SingleChildViewport
+  IgnorePointer-[GlobalKey#f8efa]
+  Semantics
+  ...
+
+The relevant error-causing widget was:
+  ChoiceChip
+  ChoiceChip:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/features/home/presentation/pages/home_page.dart:215:22
+
+When the exception was thrown, this was the stack:
+#0      debugCheckHasMaterial.<anonymous closure> (package:flutter/src/material/debug.dart:40:7)
+#1      debugCheckHasMaterial (package:flutter/src/material/debug.dart:67:4)
+#2      ChoiceChip.build (package:flutter/src/material/choice_chip.dart:221:12)
+#3      StatelessElement.build (package:flutter/src/widgets/framework.dart:5892:49)
+#4      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5820:15)
+#5      Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5802:5)
+#7      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5796:5)
+...     Normal element mounting (4 frames)
+#11     Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#12     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#13     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+...     Normal element mounting (102 frames)
+#115    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#116    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7269:36)
+#117    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7285:32)
+#118    _ViewportElement.mount (package:flutter/src/widgets/viewport.dart:254:11)
+...     Normal element mounting (93 frames)
+#211    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#213    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#214    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#215    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#216    StatefulElement.update (package:flutter/src/widgets/framework.dart:6010:5)
+#217    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#218    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5844:16)
+#219    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#220    Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#221    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#222    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#223    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#224    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:1506:19)
+#225    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#226    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#227    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#228    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1335:9)
+#231    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#232    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1324:27)
+#233    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#234    TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#235    main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:42:5)
+<asynchronous suspension>
+#236    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#237    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from dart:async and package:stack_trace)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building _InkResponseStateWidget(gestures: [tap], mouseCursor:
+null, clipped to BoxShape.rectangle, dirty, state: _InkResponseState#17025):
+No Material widget found.
+_InkResponseStateWidget widgets require a Material widget ancestor within the closest
+LookupBoundary.
+In Material Design, most widgets are conceptually "printed" on a sheet of material. In Flutter's
+material library, that material is represented by the Material widget. It is the Material widget
+that renders ink splashes, for instance. Because of this, many material library widgets require that
+there be a Material widget in the tree above them.
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+The specific widget that could not find a Material ancestor was:
+  _InkResponseStateWidget
+The ancestors of this widget were:
+  ...
+  InkWell
+  ProductCard
+  RepaintBoundary
+  IndexedSemantics
+  _SelectionKeepAlive
+  ...
+
+The relevant error-causing widget was:
+  InkWell InkWell:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/core/widgets.dart:80:12
+
+When the exception was thrown, this was the stack:
+#0      debugCheckHasMaterial.<anonymous closure> (package:flutter/src/material/debug.dart:40:7)
+#1      debugCheckHasMaterial (package:flutter/src/material/debug.dart:67:4)
+#2      InkResponse.debugCheckContext (package:flutter/src/material/ink_well.dart:719:12)
+#3      _InkResponseState.build (package:flutter/src/material/ink_well.dart:1338:36)
+#4      StatefulElement.build (package:flutter/src/widgets/framework.dart:5934:27)
+#5      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5820:15)
+#6      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5985:11)
+#7      Element.rebuild (package:flutter/src/widgets/framework.dart:5532:7)
+#8      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5802:5)
+#9      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5976:11)
+#10     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5796:5)
+...     Normal element mounting (53 frames)
+#63     Element.inflateWidget (package:flutter/src/widgets/framework.dart:4590:20)
+#64     Element.updateChild (package:flutter/src/widgets/framework.dart:4059:18)
+#65     SliverMultiBoxAdaptorElement.updateChild (package:flutter/src/widgets/sliver.dart:1068:37)
+#66     SliverMultiBoxAdaptorElement.createChild.<anonymous closure> (package:flutter/src/widgets/sliver.dart:1052:20)
+#67     BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3101:19)
+#68     SliverMultiBoxAdaptorElement.createChild (package:flutter/src/widgets/sliver.dart:1042:12)
+#69     RenderSliverMultiBoxAdaptor._createOrObtainChild.<anonymous closure> (package:flutter/src/rendering/sliver_multi_box_adaptor.dart:372:23)
+#70     RenderObject.invokeLayoutCallback.<anonymous closure> (package:flutter/src/rendering/object.dart:2894:17)
+#71     PipelineOwner._enableMutationsToDirtySubtrees (package:flutter/src/rendering/object.dart:1219:15)
+#72     RenderObject.invokeLayoutCallback (package:flutter/src/rendering/object.dart:2893:14)
+#73     RenderSliverMultiBoxAdaptor._createOrObtainChild (package:flutter/src/rendering/sliver_multi_box_adaptor.dart:360:5)
+#74     RenderSliverMultiBoxAdaptor.addInitialChild (package:flutter/src/rendering/sliver_multi_box_adaptor.dart:460:5)
+#75     RenderSliverGrid.performLayout (package:flutter/src/rendering/sliver_grid.dart:624:12)
+#76     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#77     RenderSliverEdgeInsetsPadding.performLayout (package:flutter/src/rendering/sliver_padding.dart:133:12)
+#78     RenderSliverPadding.performLayout (package:flutter/src/rendering/sliver_padding.dart:371:11)
+#79     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#80     RenderViewportBase.layoutChildSequence (package:flutter/src/rendering/viewport.dart:673:13)
+#81     RenderViewport._attemptLayout (package:flutter/src/rendering/viewport.dart:1684:12)
+#82     RenderViewport.performLayout (package:flutter/src/rendering/viewport.dart:1575:20)
+#83     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#84     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#85     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#86     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#87     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#88     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#89     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#90     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#91     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#92     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#93     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#94     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#95     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#96     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#97     RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#98     RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#99     _RenderCustomClip.performLayout (package:flutter/src/rendering/proxy_box.dart:1481:11)
+#100    RenderObject.layout (package:flutter/src/rendering/object.dart:2775:7)
+#101    RenderProxyBoxMixin.performLayout (package:flutter/src/rendering/proxy_box.dart:115:18)
+#102    RenderObject._layoutWithoutResize (package:flutter/src/rendering/object.dart:2623:7)
+#103    PipelineOwner.flushLayout (package:flutter/src/rendering/object.dart:1170:18)
+#104    PipelineOwner.flushLayout (package:flutter/src/rendering/object.dart:1183:15)
+#105    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:1508:27)
+#106    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#107    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#108    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#109    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1335:9)
+#112    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#113    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1324:27)
+#114    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#115    TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#116    main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:42:5)
+<asynchronous suspension>
+#117    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#118    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from dart:async and package:stack_trace)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+Found 0 product cards
+After scroll: Found 0 product cards
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: at least one matching candidate
+  Actual: _TypeWidgetFinder:<Found 0 widgets with type "ProductCard": []>
+   Which: means none were found but some were expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:59:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart line 59
+The test description was:
+  HomePage search filters products
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (6) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -1: HomePage search filters products [E]                                                                                                                                                      
+  Test failed. See exception logs above.
+  The test description was: HomePage search filters products
+  
+
+To run this test again: /Users/a/develop/flutter/bin/cache/dart-sdk/bin/dart test /Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart -p vm --plain-name 'HomePage search filters products'
+00:01 +0 -1: Some tests failed.                                                                                                                                                                        

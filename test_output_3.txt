@@ -1,0 +1,165 @@
+00:00 +0: loading /Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart                                                                                                          00:01 +0: loading /Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart                                                                                                          00:01 +0: HomePage search filters products                                                                                                                                                             00:01 +0: HomePage search filters products                                                                                                                                                             
+HomePage: products=10, query=
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 81 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/core/widgets.dart:160:19
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#43c70 relayoutBoundary=up3 OVERFLOWING:
+  creator: Row ← Column ← Padding ← Column ← Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#ae71c ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← ⋯
+  parentData: offset=Offset(0.0, 30.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=146.0, 0.0<=h<=Infinity)
+  size: Size(146.0, 20.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 81 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/core/widgets.dart:160:19
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#8a4a8 relayoutBoundary=up3 OVERFLOWING:
+  creator: Row ← Column ← Padding ← Column ← Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#f1113 ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← ⋯
+  parentData: offset=Offset(0.0, 30.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=146.0, 0.0<=h<=Infinity)
+  size: Size(146.0, 20.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 81 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/core/widgets.dart:160:19
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#99243 relayoutBoundary=up3 OVERFLOWING:
+  creator: Row ← Column ← Padding ← Column ← Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#3db94 ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← ⋯
+  parentData: offset=Offset(0.0, 30.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=146.0, 0.0<=h<=Infinity)
+  size: Size(146.0, 20.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 81 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///Users/a/dev/mobile/all_apps/abdoul_express/lib/core/widgets.dart:160:19
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#3134d relayoutBoundary=up3 OVERFLOWING:
+  creator: Row ← Column ← Padding ← Column ← Semantics ← DefaultTextStyle ← AnimatedDefaultTextStyle ←
+    _InkFeatures-[GlobalKey#2cfa1 ink renderer] ← NotificationListener<LayoutChangedNotification> ←
+    CustomPaint ← _ShapeBorderPaint ← PhysicalShape ← ⋯
+  parentData: offset=Offset(0.0, 30.0); flex=null; fit=null (can use size)
+  constraints: BoxConstraints(0.0<=w<=146.0, 0.0<=h<=Infinity)
+  size: Size(146.0, 20.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure>.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:51:7)
+<asynchronous suspension>
+#3      main.<anonymous closure> (file:///Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart:34:5)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1059:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  HomePage search filters products
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (5) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:03 +0 -1: HomePage search filters products [E]                                                                                                                                                      
+  Test failed. See exception logs above.
+  The test description was: HomePage search filters products
+  
+
+To run this test again: /Users/a/develop/flutter/bin/cache/dart-sdk/bin/dart test /Users/a/dev/mobile/all_apps/abdoul_express/test/home_page_search_test.dart -p vm --plain-name 'HomePage search filters products'
+00:03 +0 -1: Some tests failed.                                                                                                                                                                        

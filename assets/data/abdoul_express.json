@@ -1,0 +1,197 @@
+{
+  "company_info": {
+    "legal_name": "ABDOUL KGB EXPRESS",
+    "commercial_name": "ABDOUL EXPRESS",
+    "tax_id": "149636/P",
+    "headquarters_address": "BOBIEL A COTE DE LA PHARMACIE BOBIEL",
+    "primary_contact": {
+      "name": "Abdoul Karim Garba Bawa",
+      "phone": "+12638820404",
+      "email": "info.abdoulexpress@gmail.com"
+    }
+  },
+  "store_presentation": {
+    "store_name": "ABDOUL EXPRESS",
+    "slogan": "Tout ce qu'il vous faut, au même endroit",
+    "description": "Nous sommes bien plus qu'une simple boutique en ligne. Nous sommes une plateforme pensée pour simplifier votre quotidien, en réunissant au même endroit une large sélection de produits essentiels, utiles, tendance et à des prix très compétitifs. Notre mission est claire : vous offrir une expérience d'achat simple, fiable et agréable, où la qualité rencontre l'accessibilité.\n\nChaque produit proposé est soigneusement sélectionné afin de répondre à vos besoins réels, que ce soit pour la maison, la mobilité, le bien-être, la technologie ou les loisirs. Nous croyons qu'un bon achat doit être synonyme de satisfaction, de confiance et de tranquillité d'esprit.\n\nNotre vision : créer une boutique moderne et inclusive, capable de répondre aux attentes d'aujourd'hui tout en anticipant celles de demain. Nous souhaitons devenir une référence de confiance, où chacun peut trouver ce qu'il cherche, facilement, en toute sécurité et à un prix abordable.",
+    "categories": [
+      "Hommes",
+      "Femmes",
+      "Enfants & Bébés",
+      "Électronique & High-Tech",
+      "Maison & Décoration",
+      "Beauté & Santé",
+      "Auto & Moto & Vélo",
+      "Sports & Fitness",
+      "Fourniture de bureau & scolaire"
+    ],
+    "logo": "Logo abdoul Express"
+  },
+  "commercial_policies": {
+    "return_policy": {
+      "return_period_days": 3,
+      "conditions": [
+        "Produit non utilisé",
+        "Emballage d'origine intact",
+        "Frais de retour à la charge du client",
+        "Remboursement des frais d'expédition si cela a été supporté par notre entreprise auprès de nos partenaires"
+      ],
+      "excluded_products": "Tous les articles peuvent être retournés, mais en respectant les conditions de retour"
+    },
+    "delivery_policy": {
+      "coverage_zones": "Toutes les villes accessibles par les grandes sociétés de transport du Niger (Partenaires)",
+      "preparation_time_hours": 1,
+      "shipping_fees": {
+        "niamey": "Gratuite",
+        "interior": "Entre 1.000 et 2.000 F CFA pour les clients de l'intérieur dont le montant de leurs commande ne dépasse pas 15.000 F CFA"
+      }
+    }
+  },
+  "sample_products": [
+    {
+      "id": 1,
+      "name": "Disaar hair oil",
+      "short_description": "Huile de réparation de cheveux abîmés de haute qualité pour homme pour une alimentation en profondeur, renforce les cheveux brillants et lisses dans la vie quotidienne",
+      "category": ["Homme", "Santé et beauté"],
+      "price": 5000,
+      "currency": "F CFA",
+      "initial_stock": 120,
+      "images": "Disaar hair oil"
+    },
+    {
+      "id": 2,
+      "name": "Sac scolaire pour école primaire",
+      "short_description": "Sac d'école unisexe en matière polyester",
+      "category": ["Enfant & bébé", "Fourniture de bureau & scolaire"],
+      "price": 5000,
+      "currency": "F CFA",
+      "initial_stock": 500,
+      "images": "Sac pour enfant"
+    },
+    {
+      "id": 3,
+      "name": "Gourde pour enfant 500ml",
+      "short_description": "Gourde d'eau avec paille pour les enfants de l'école primaire",
+      "category": ["Enfant & bébé", "Fourniture de bureau & scolaire"],
+      "price": 2500,
+      "currency": "F CFA",
+      "initial_stock": 240,
+      "images": "Gourde pour enfant"
+    }
+  ],
+  "settings": {
+    "about": {
+      "title": "À propos d'ABDOUL EXPRESS",
+      "content": "ABDOUL EXPRESS est votre marketplace de confiance au Niger, fondée avec la vision de révolutionner l'expérience d'achat en ligne dans notre pays. Nous sommes dédiés à offrir une plateforme accessible, sûre et pratique où chaque Nigérien peut trouver des produits de qualité à des prix compétitifs.\n\nNotre mission est de simplifier votre quotidien en réunissant en un seul endroit tout ce dont vous avez besoin : mode, électronique, articles pour la maison, produits de beauté, fournitures scolaires et bien plus encore.\n\nCe qui nous distingue :\n- Une sélection rigoureuse de produits de qualité\n- Des prix accessibles et transparents\n- Une livraison rapide et fiable dans tout le Niger\n- Un service client à l'écoute et réactif\n- Une plateforme sécurisée pour vos transactions\n\nNous travaillons en étroite collaboration avec des partenaires locaux et internationaux pour garantir la qualité de nos produits et la satisfaction de nos clients.\n\nNotre équipe s'engage quotidiennement à améliorer votre expérience d'achat et à faire d'ABDOUL EXPRESS la référence du e-commerce au Niger.",
+      "contact": {
+        "email": "info.abdoulexpress@gmail.com",
+        "phone": "+12638820404",
+        "address": "BOBIEL A COTE DE LA PHARMACIE BOBIEL, Niamey, Niger"
+      }
+    },
+    "privacy_policy": {
+      "title": "Politique de confidentialité",
+      "last_updated": "2025-12-31",
+      "sections": [
+        {
+          "heading": "1. Collecte des informations",
+          "content": "ABDOUL EXPRESS collecte les informations suivantes lors de votre utilisation de notre application :\n\n- Informations d'identification : nom, prénom, adresse email, numéro de téléphone\n- Informations de livraison : adresse de livraison, ville, quartier\n- Informations de paiement : mode de paiement choisi (les détails bancaires sont sécurisés par nos prestataires de paiement)\n- Informations de navigation : historique de commandes, produits consultés, préférences\n- Informations techniques : type d'appareil, système d'exploitation, adresse IP"
+        },
+        {
+          "heading": "2. Utilisation des informations",
+          "content": "Nous utilisons vos informations pour :\n\n- Traiter et livrer vos commandes\n- Communiquer avec vous concernant vos commandes et notre service\n- Améliorer notre application et nos services\n- Personnaliser votre expérience d'achat\n- Vous informer des offres promotionnelles (avec votre consentement)\n- Prévenir la fraude et assurer la sécurité de notre plateforme\n- Respecter nos obligations légales"
+        },
+        {
+          "heading": "3. Protection des données",
+          "content": "ABDOUL EXPRESS s'engage à protéger vos données personnelles :\n\n- Vos données sont stockées sur des serveurs sécurisés\n- Nous utilisons des protocoles de chiffrement pour les transactions\n- L'accès à vos données est strictement limité aux employés autorisés\n- Nous ne vendons jamais vos données personnelles à des tiers\n- Nous effectuons des audits réguliers de sécurité"
+        },
+        {
+          "heading": "4. Partage des informations",
+          "content": "Nous pouvons partager vos informations avec :\n\n- Nos partenaires de livraison pour assurer la livraison de vos commandes\n- Nos prestataires de services de paiement pour traiter vos transactions\n- Les autorités compétentes si la loi l'exige\n\nNous ne partageons jamais vos informations à des fins marketing sans votre consentement explicite."
+        },
+        {
+          "heading": "5. Vos droits",
+          "content": "Conformément à la législation en vigueur, vous disposez des droits suivants :\n\n- Droit d'accès : vous pouvez demander l'accès à vos données personnelles\n- Droit de rectification : vous pouvez corriger vos informations inexactes\n- Droit à l'effacement : vous pouvez demander la suppression de vos données\n- Droit d'opposition : vous pouvez vous opposer au traitement de vos données\n- Droit à la portabilité : vous pouvez recevoir vos données dans un format structuré\n\nPour exercer ces droits, contactez-nous à : info.abdoulexpress@gmail.com"
+        },
+        {
+          "heading": "6. Cookies et technologies similaires",
+          "content": "Notre application utilise des technologies de suivi pour améliorer votre expérience :\n\n- Cookies essentiels pour le fonctionnement de l'application\n- Cookies analytiques pour comprendre comment vous utilisez notre service\n- Cookies de personnalisation pour mémoriser vos préférences\n\nVous pouvez gérer vos préférences en matière de cookies dans les paramètres de l'application."
+        },
+        {
+          "heading": "7. Conservation des données",
+          "content": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour :\n\n- Fournir nos services\n- Respecter nos obligations légales\n- Résoudre les litiges\n- Faire respecter nos accords\n\nLes données des comptes inactifs depuis plus de 3 ans peuvent être supprimées après notification."
+        },
+        {
+          "heading": "8. Modifications de la politique",
+          "content": "Nous pouvons modifier cette politique de confidentialité à tout moment. Les modifications importantes vous seront notifiées par email ou via l'application. Nous vous encourageons à consulter régulièrement cette politique."
+        },
+        {
+          "heading": "9. Contact",
+          "content": "Pour toute question concernant cette politique de confidentialité, contactez-nous :\n\nEmail : info.abdoulexpress@gmail.com\nTéléphone : +12638820404\nAdresse : BOBIEL A COTE DE LA PHARMACIE BOBIEL, Niamey, Niger"
+        }
+      ]
+    },
+    "terms_of_use": {
+      "title": "Conditions d'utilisation",
+      "last_updated": "2025-12-31",
+      "sections": [
+        {
+          "heading": "1. Acceptation des conditions",
+          "content": "En accédant et en utilisant l'application ABDOUL EXPRESS, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre application."
+        },
+        {
+          "heading": "2. Description du service",
+          "content": "ABDOUL EXPRESS est une plateforme de marketplace en ligne qui permet aux utilisateurs au Niger de :\n\n- Parcourir et acheter des produits variés\n- Passer des commandes en ligne\n- Suivre leurs livraisons\n- Gérer leur compte client\n- Accéder aux offres promotionnelles\n\nNous nous réservons le droit de modifier, suspendre ou interrompre tout ou partie du service à tout moment."
+        },
+        {
+          "heading": "3. Inscription et compte utilisateur",
+          "content": "Pour utiliser nos services, vous devez :\n\n- Avoir au moins 18 ans ou avoir l'autorisation d'un tuteur légal\n- Fournir des informations exactes et complètes lors de l'inscription\n- Maintenir la confidentialité de votre mot de passe\n- Nous informer immédiatement de toute utilisation non autorisée de votre compte\n- Être responsable de toutes les activités effectuées depuis votre compte\n\nNous nous réservons le droit de suspendre ou de supprimer tout compte en cas de violation de ces conditions."
+        },
+        {
+          "heading": "4. Commandes et paiement",
+          "content": "Processus de commande :\n\n- Les prix sont affichés en Francs CFA (F CFA) et incluent toutes les taxes\n- Une commande est confirmée après validation du paiement\n- Nous nous réservons le droit de refuser ou d'annuler toute commande pour des raisons légitimes\n- En cas d'erreur de prix, nous vous en informerons et vous pourrez confirmer ou annuler\n\nModes de paiement acceptés :\n\n- Paiement à la livraison (selon disponibilité)\n- Paiement mobile money\n- Autres modes de paiement disponibles dans l'application\n\nToutes les transactions sont sécurisées."
+        },
+        {
+          "heading": "5. Livraison",
+          "content": "Conditions de livraison :\n\n- Livraison gratuite à Niamey\n- Frais de livraison de 1.000 à 2.000 F CFA pour l'intérieur du Niger (commandes inférieures à 15.000 F CFA)\n- Délai de préparation : 1 heure\n- Les délais de livraison sont indicatifs et dépendent de nos partenaires transporteurs\n- Vous devez être présent à l'adresse de livraison indiquée\n- En cas d'absence, notre transporteur prendra contact avec vous\n\nZones couvertes : Toutes les villes accessibles par les grandes sociétés de transport du Niger."
+        },
+        {
+          "heading": "6. Retours et remboursements",
+          "content": "Politique de retour :\n\n- Délai de retour : 3 jours après réception\n- Le produit doit être non utilisé et dans son emballage d'origine\n- Les frais de retour sont à la charge du client\n- Remboursement des frais d'expédition si supportés par ABDOUL EXPRESS\n\nProcédure de retour :\n\n1. Contactez notre service client dans les 3 jours\n2. Obtenez un numéro de retour\n3. Renvoyez le produit avec le numéro de retour\n4. Le remboursement sera effectué après vérification du produit\n\nTous les articles peuvent être retournés en respectant ces conditions."
+        },
+        {
+          "heading": "7. Propriété intellectuelle",
+          "content": "Tous les contenus présents sur l'application ABDOUL EXPRESS (textes, images, logos, graphiques, etc.) sont protégés par le droit d'auteur et appartiennent à ABDOUL EXPRESS ou à ses partenaires.\n\nVous n'êtes pas autorisé à :\n\n- Copier, reproduire ou distribuer le contenu sans autorisation\n- Utiliser notre marque ou nos logos sans permission écrite\n- Modifier ou créer des œuvres dérivées de notre contenu\n- Utiliser l'application à des fins commerciales sans autorisation"
+        },
+        {
+          "heading": "8. Utilisation acceptable",
+          "content": "Vous vous engagez à ne pas :\n\n- Utiliser l'application de manière illégale ou frauduleuse\n- Harceler, menacer ou nuire à d'autres utilisateurs\n- Transmettre des virus ou des codes malveillants\n- Tenter d'accéder de manière non autorisée à notre système\n- Utiliser des robots ou des scripts automatisés sans autorisation\n- Publier des contenus offensants, diffamatoires ou inappropriés\n- Usurper l'identité d'une autre personne"
+        },
+        {
+          "heading": "9. Limitation de responsabilité",
+          "content": "ABDOUL EXPRESS s'efforce de fournir un service de qualité, toutefois :\n\n- Nous ne garantissons pas que le service sera ininterrompu ou sans erreur\n- Nous ne sommes pas responsables des retards de livraison dus à nos partenaires transporteurs\n- Nous ne sommes pas responsables des dommages indirects ou consécutifs\n- Notre responsabilité est limitée au montant de votre commande\n- Nous ne sommes pas responsables des problèmes causés par votre appareil ou connexion internet\n\nLes descriptions et images des produits sont fournies à titre indicatif."
+        },
+        {
+          "heading": "10. Service client",
+          "content": "Notre équipe est à votre disposition pour toute question ou assistance :\n\n- Email : info.abdoulexpress@gmail.com\n- Téléphone : +12638820404\n- Horaires : Du lundi au samedi, de 8h à 18h\n\nNous nous engageons à répondre à vos demandes dans les plus brefs délais."
+        },
+        {
+          "heading": "11. Modifications des conditions",
+          "content": "ABDOUL EXPRESS se réserve le droit de modifier ces conditions d'utilisation à tout moment. Les modifications entreront en vigueur dès leur publication dans l'application.\n\nVous serez informé des modifications importantes par email ou notification. Votre utilisation continue de l'application après les modifications constitue votre acceptation des nouvelles conditions."
+        },
+        {
+          "heading": "12. Résiliation",
+          "content": "Vous pouvez fermer votre compte à tout moment en nous contactant.\n\nNous pouvons suspendre ou résilier votre compte si :\n\n- Vous violez ces conditions d'utilisation\n- Vous effectuez des activités frauduleuses\n- Votre compte est inactif depuis plus de 3 ans\n- Nous devons nous conformer à une obligation légale\n\nEn cas de résiliation, vos données personnelles seront traitées conformément à notre politique de confidentialité."
+        },
+        {
+          "heading": "13. Droit applicable et juridiction",
+          "content": "Ces conditions d'utilisation sont régies par les lois de la République du Niger.\n\nTout litige relatif à l'utilisation de l'application ABDOUL EXPRESS sera soumis à la juridiction exclusive des tribunaux de Niamey, Niger.\n\nNous encourageons toutefois la résolution amiable des litiges en contactant d'abord notre service client."
+        },
+        {
+          "heading": "14. Dispositions générales",
+          "content": "- Si une disposition de ces conditions est jugée invalide, les autres dispositions restent en vigueur\n- Notre non-exercice d'un droit ne constitue pas une renonciation à ce droit\n- Ces conditions constituent l'intégralité de l'accord entre vous et ABDOUL EXPRESS\n- Vous ne pouvez pas transférer vos droits ou obligations sans notre consentement\n\nPour toute question concernant ces conditions, contactez-nous à info.abdoulexpress@gmail.com"
+        }
+      ]
+    }
+  }
+}

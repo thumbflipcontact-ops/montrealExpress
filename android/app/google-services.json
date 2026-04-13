@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278372043154",
+    "project_id": "abdoulexpress",
+    "storage_bucket": "abdoulexpress.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278372043154:android:5f28a06f57a6cac84d594b",
+        "android_client_info": {
+          "package_name": "com.alfajer.abdoul_express"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEY7m6HuHIPBIyfJQZsKpww0yoHwXn-3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

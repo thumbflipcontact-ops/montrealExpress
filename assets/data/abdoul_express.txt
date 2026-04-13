@@ -1,0 +1,198 @@
+Modèle de Fiche d'Intégration Vendeur - AbdoulExpress
+
+Par: Ibrahim Ahmad, Ceo AlfajarSoft
+Email: contact@alfajarsoft.com
+Destination: GARBA BAWA ABDOUL KARIM
+Ce document est un modèle de formulaire destiné aux vendeurs souhaitant intégrer la marketplace AbdoulExpress. Veuillez remplir toutes les sections avec les informations les plus précises et complètes possible.
+
+Section 1: Informations sur l'Entreprise et le Contact
+Veuillez fournir les informations légales et de contact de votre entreprise.
+
+Champ
+Description
+Remplir ici
+Nom Légal de l'Entreprise
+Le nom enregistré de votre entité commerciale.
+[ ABDOUL KGB EXPRESS]
+Nom Commercial (si différent)
+Le nom sous lequel vous opérez si différent du nom légal.
+[ABDOUL EXPRESS ]
+Numéro d'Identification Fiscale (NIF) / Registre de Commerce
+Votre numéro d'enregistrement officiel/ ECRIRE NON SI PAS PRES
+[149636 /P ]
+Adresse du Siège Social
+L'adresse physique complète de votre entreprise.
+[BOBIEL A COTE DE LA PHARMACIE BOBIEL ]
+Nom et Prénom du Contact Principal
+La personne responsable de la gestion du compte AbdoulExpress.
+[Abdoul Karim Garba Bawa ]
+Téléphone du Contact
+Numéro de téléphone direct pour les communications urgentes.
++12638820404
+Email du Contact
+Adresse email professionnelle pour les notifications et le support.
+[info.abdoulexpress@gmail.com ]
+
+
+
+
+
+Section 2: Présentation de la Boutique sur l'Application
+Ces informations seront visibles par les clients sur votre page boutique dans l'application.
+
+Champ
+Description
+Remplir ici
+Nom de la Boutique sur l'Application
+Le nom que les clients verront (ex: "La Boutique de Abdoul Express").
+[ ABDOUL EXPRESS ]
+Slogan/Phrase d'Accroche (max 10 mots)
+Une courte phrase pour décrire votre marque.
+[Tout ce qu’il vous faut, au meme endroit]
+Description Détaillée de la Boutique (max 200 mots)
+Une présentation de votre entreprise, de vos valeurs et de ce que vous vendez.
+[Nous sommes bien plus qu’une simple boutique en ligne. Nous sommes une plateforme pensée pour simplifier votre quotidien, en réunissant au même endroit une large sélection de produits essentiels, utiles, tendance et a des prix tres competitif. Notre mission est claire : vous offrir une expérience d’achat simple, fiable et agréable, où la qualité rencontre l’accessibilité.
+
+Chaque produit proposé est soigneusement sélectionné afin de répondre à vos besoins réels, que ce soit pour la maison, la mobilité, le bien‑être, la technologie ou les loisirs. Nous croyons qu’un bon achat doit être synonyme de satisfaction, de confiance et de tranquillité d’esprit.
+Notre vision, créer une boutique moderne et inclusive, capable de répondre aux attentes d’aujourd’hui tout en anticipant celles de demain. Nous souhaitons devenir une référence de confiance, où chacun peut trouver ce qu’il cherche, facilement, en toute sécurité et a un prix abordable. ]
+Catégories de Produits Principales
+Ex: Mode Homme, Électronique, Produits Locaux.
+[Les categorie
+Hommes
+Femmes
+Enfants & Bebes
+Electronique & High - Tech
+Maison & Decoration
+Beaute & Sante 
+Auto & Moto & Velo
+Sports & Fitness
+Fourniture de bureau & scolaire]
+]
+Lien vers le Logo de la Boutique
+Indiquer le nom du fichier ou le lien de téléchargement du logo (à fournir séparément).
+[Logo abdoul Express ]
+
+
+
+
+
+
+
+Section 3: Politiques Commerciales Spécifiques
+Veuillez détailler vos conditions de vente, de retour et de livraison.
+
+Politique de Retour et d'Échange
+Champ
+Description
+Remplir ici
+Délai de Retour (en jours)
+Le nombre de jours après réception pendant lequel un client peut demander un retour.
+[3] jours
+Conditions de Retour
+Précisez les conditions (ex: produit non utilisé, emballage d'origine, frais de retour à la charge du client, etc.).
+[ produit non utilisé, emballage d'origine, frais de retour à la charge du client, Remboursement des frais d’expedition si cela a été supporté par notre entreprise au pres de nos partenaires]
+Produits Exclus du Retour
+Liste des produits qui ne peuvent pas être retournés (ex: produits périssables, personnalisés).
+[ Tous les articles peuvent etre retourné, mais en respectant les conditions de retour]
+
+Politique de Livraison
+Champ
+Description
+Remplir ici
+Zones de Livraison Couvertes
+Les villes ou quartiers où vous livrez (ex: Niamey uniquement, toutes les capitales régionales).
+[ Toutes les villes accessibles par les grandes societe de transport du niger ( Partenaires ) ]
+Délai de Préparation des Commandes (en heures)
+Le temps nécessaire pour préparer une commande avant l'expédition.
+[1 ] heures
+Frais de Livraison (si fixes)
+Le montant fixe des frais de livraison (si applicable).
+[ Gratuite a Niamey ]
+Informations Supplémentaires sur la Livraison
+Toute information importante (ex: livraison gratuite à partir de X F CFA).
+[ Entre 1.000 et 2.000  F CFA pour les clients de l’interieur dont le montant de leurs commande ne depasse pas 15.000 F CFA]
+
+
+
+Section 4: Fiche Produit (Exemple pour 3 produits initiaux)
+Veuillez fournir les détails pour au moins trois de vos produits phares.
+
+Produit 1
+Champ
+Description
+Remplir ici
+Nom du Produit
+Le nom complet du produit.
+[ Disaar hair oil]
+Description Courte (max 50 mots)
+Une brève description pour attirer l'attention.
+[ Huile de réparation de cheveux abîmés de haute qualité pour homme pour une alimentation en profondeur, renforce les cheveux brillants et lisses dans la vie quotidienne]
+Catégorie
+La catégorie principale du produit (ex: T-shirt, Smartphone, Huile d'Argan).
+[ Homme, sante et beaute]
+Prix (en F CFA)
+Le prix de vente TTC.
+[5.000 F CFA ]
+Stock Initial
+Le nombre d'unités disponibles au lancement.
+[120 ]
+Lien vers les Images du Produit
+Indiquer le nom des fichiers images (à fournir séparément).
+[ Disaar hair oil]
+
+Produit 2
+Champ
+Description
+Remplir ici
+Nom du Produit
+Le nom complet du produit.
+[ Sac scolaire pour ecole primaire]
+Description Courte (max 50 mots)
+Une brève description pour attirer l'attention.
+[ Sac d’ecole unisexe en matiere polyester]
+Catégorie
+La catégorie principale du produit.
+[Enfant & bebe, fourniture de bureau & scolaire ]
+Prix (en F CFA)
+Le prix de vente TTC.
+[5.000 F CFA ]
+Stock Initial
+Le nombre d'unités disponibles au lancement.
+[ 500]
+Lien vers les Images du Produit
+Indiquer le nom des fichiers images (à fournir séparément).
+[ Sac pour enfant]
+
+Produit 3
+Champ
+Description
+Remplir ici
+Nom du Produit
+Le nom complet du produit.
+[ Gourde pour enfant 500ml ]
+Description Courte (max 50 mots)
+Une brève description pour attirer l'attention.
+[ Gourde d’eau avec paille pour les enfants de l’ecole primaire]
+Catégorie
+La catégorie principale du produit.
+[ Enfant & bebe, fourniture de bureau & scolaire ]
+Prix (en F CFA)
+Le prix de vente TTC.
+[ 2.500 F CFA]
+Stock Initial
+Le nombre d'unités disponibles au lancement.
+[ 240 ]
+Lien vers les Images du Produit
+Indiquer le nom des fichiers images (à fournir séparément).
+[Gourde pour enfant ]
+
+
+
+
+
+
+Instructions pour la Soumission
+Remplissez ce formulaire de manière claire et lisible.
+Fournissez tous les fichiers annexes (logo, images des produits) séparément, en vous assurant que les noms de fichiers correspondent à ceux indiqués dans le formulaire.
+Envoyez le document complété à l'équipe d'intégration d'AbdoulExpress.
+

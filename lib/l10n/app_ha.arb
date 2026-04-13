@@ -1,0 +1,157 @@
+{
+  "@@locale": "ha",
+
+  "appName": "AbdoulExpress",
+  "welcome": "Barka da zuwa",
+
+  "navHome": "Kasuwanci",
+  "navCart": "Katin sayayya",
+  "navChat": "Chat",
+  "navProfile": "Bayani",
+  "navCategories": "Nau'o'i",
+
+  "categoriesAll": "Duka",
+  "search": "Nema",
+  "searchProducts": "Nemo kayayyaki...",
+  "searchNoResults": "Ba a sami kayayyaki ba",
+
+  "addToCart": "Saka a katin sayayya",
+  "buyNow": "Sayi yanzu",
+  "price": "Farashi",
+  "quantity": "Adadi",
+  "inStock": "Akwai",
+  "outOfStock": "Ba shi akwai",
+
+  "cartTitle": "Katin Sayayya",
+  "cartEmpty": "Katin sayayya babu kowa",
+  "cartEmptyMessage": "Saka kayayyaki don farawa!",
+  "cartSubtotal": "Jimlar farashi",
+  "cartShipping": "Isar da kaya",
+  "cartTotal": "Jimlar",
+  "checkout": "Biya kudi",
+  "continueShoping": "Ci gaba da sayayya",
+
+  "currency": "F CFA",
+  "currencyFormat": "{amount} F CFA",
+
+  "loginTitle": "Shiga",
+  "loginEmail": "Imel ko waya",
+  "loginPassword": "Kalmar sirri",
+  "loginButton": "Shiga",
+  "loginForgotPassword": "Ka manta kalmar sirri?",
+  "loginSignupPrompt": "Ba ka da asusu?",
+  "loginSignupLink": "Yi rajista",
+
+  "signupTitle": "Rajista",
+  "signupFirstName": "Suna na farko",
+  "signupLastName": "Sunan iyali",
+  "signupName": "Cikakken suna",
+  "signupEmail": "Imel",
+  "signupPhone": "Lambar waya",
+  "signupPassword": "Kalmar sirri",
+  "signupConfirmPassword": "Tabbatar da kalmar sirri",
+  "signupButton": "Ƙirƙiri asusu",
+  "signupLoginPrompt": "Kana da asusu?",
+  "signupLoginLink": "Shiga",
+
+  "otpTitle": "Tabbatar da lambar",
+  "otpMessage": "Shigar da lambar da aka aika zuwa {phone}",
+  "otpResend": "Sake aika lambar",
+  "otpVerify": "Tabbatar",
+  "otpMessageGeneric": "Mun aika lamba 6 zuwa wayarka",
+  "sendCode": "Aika lambar",
+  "loginWithoutAccount": "Shiga ba tare da asusu ba",
+  "emailTab": "Imel",
+  "phoneTab": "Waya",
+
+  "profileTitle": "Bayani",
+  "profileOrders": "Oda'o'ina",
+  "profileAddresses": "Adireshi",
+  "profilePayments": "Tarihin biya kuɗi",
+  "profileFavorites": "Abubuwan da na fi so",
+  "profileSettings": "Saitunan",
+  "profileLogout": "Fita",
+
+  "settingsTitle": "Saitunan",
+  "settingsLanguage": "Harshe",
+  "settingsLanguageEnglish": "Turanci",
+  "settingsLanguageFrench": "Faransanci",
+  "settingsLanguageHausa": "Hausa",
+  "settingsNotifications": "Sanarwa",
+  "settingsTheme": "Jigogi",
+  "settingsAbout": "Game da",
+  "settingsPrivacy": "Manufar sirri",
+  "settingsTerms": "Sharuɗɗan sabis",
+
+  "ordersTitle": "Oda'o'ina",
+  "ordersEmpty": "Babu oda",
+  "ordersEmptyMessage": "Fara sayayya don ganin oda'o'inka a nan",
+  "orderDetails": "Bayanan oda",
+  "orderStatus": "Matsayi",
+  "orderDate": "Ranar oda",
+  "orderTotal": "Jimlar",
+  "orderTrack": "Bi diddigin oda",
+  "orderCancel": "Soke oda",
+  "orderReorder": "Sake oda",
+
+  "orderStatusPending": "Ana jira",
+  "orderStatusProcessing": "Ana aiki",
+  "orderStatusShipped": "An aika",
+  "orderStatusDelivered": "An kawo",
+  "orderStatusCancelled": "An soke",
+
+  "favoritesTitle": "Abubuwan da na fi so",
+  "favoritesEmpty": "Babu abubuwan da ka fi so",
+  "favoritesEmptyMessage": "Danna alamar zuciya akan kayayyakin da kake so",
+
+  "categoriesTitle": "Nau'o'i",
+  "newArrivals": "Sababbin kayayyaki",
+  "specialOffers": "Tayin musamman",
+  "recentlyViewed": "Na baya-bayan nan",
+
+  "errorGeneric": "An sami kuskure",
+  "errorNetwork": "Duba haɗin yanar gizo",
+  "errorEmpty": "Babu sakamako",
+  "errorLoading": "An kasa loda bayanai",
+  "errorTryAgain": "Sake gwadawa",
+
+  "actionSave": "Ajiye",
+  "actionCancel": "Soke",
+  "actionDelete": "Share",
+  "actionEdit": "Gyara",
+  "actionOk": "To",
+  "actionYes": "Eh",
+  "actionNo": "A'a",
+  "actionConfirm": "Tabbatar",
+  "actionClose": "Rufe",
+  "actionApply": "Yi amfani",
+  "actionClear": "Goge",
+  "actionFilter": "Tace",
+  "actionSort": "Jera",
+  "testCredentials": "Gwada: {email} / {password}\nKo: {phone}",
+  "@testCredentials": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      },
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "@otpMessageGeneric": {},
+
+  "validationRequired": "Ana buƙatar wannan filin",
+  "validationEmail": "Shigar da ingantaccen imel",
+  "validationPhone": "Shigar da ingantaccen lambar waya",
+  "validationPassword": "Kalmar sirri dole ta kasance akalla haruffa 6",
+  "validationPasswordMismatch": "Kalmomin sirri ba su dace ba",
+
+  "loading": "Ana lodawa...",
+  "loadingProducts": "Ana lodar kayayyaki...",
+  "loadingOrders": "Ana lodar oda'o'i...",
+  "processingPayment": "Ana aiwatar da biya kuɗi..."
+}
